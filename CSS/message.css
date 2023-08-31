@@ -1,0 +1,26 @@
+.message_session{
+    display: flex;
+    flex-shrink: 0;
+    justify-content:space-evenly;
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.furniture{
+    flex: 1;
+    background-image: url(/IMGASSETS/furniture.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+}
+
+.basket{
+    flex: 1;
+    background-image: url(/IMGASSETS/basket.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
