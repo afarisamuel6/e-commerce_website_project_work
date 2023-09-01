@@ -28,7 +28,7 @@
 .map{
     display: flex;
     gap: 20px;
-    align-content: space-between;
+    align-content: space-betweens;
 }
 
 
@@ -64,4 +64,13 @@ h5{
     background-color: #aaa8a8;
     padding: 10px;
     border: none;
+}
+
+@media (max-width: 375px){
+
+    .con_sub{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
