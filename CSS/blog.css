@@ -16,11 +16,26 @@
     gap: 20px;
     color: #000;
     font-size: 20px;
-    font-weight: 100;
     padding: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 
+.blog p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.date {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border: 2px;
+    font-size: 18px;
+}
 .readmore_btn {
     color: #000;
     font-family: 'Dosis' sans-serif;
@@ -33,8 +48,6 @@
     color: #000;
     margin-bottom: 10px;
 }
-
-
 
 .blogs h2 {
     text-align: center;
