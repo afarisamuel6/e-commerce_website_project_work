@@ -1,76 +1,82 @@
-.footer{
-    background-color: #EFEFEF;
+footer {
+    padding: 20px;
+    background: #EFEFEF;
+    color: #000;
+    font-family: 'Poppins' sans-serif;
+    height: 480px;
+}
+
+.footer-container {
+    display: block;
+}
+.subscribe {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 0 auto;
+}
+.address{
+   
+}
+
+.sr-only {
+    display: none;
+}
+
+.location-address, .phone-address, .mail-address {
     display: flex;
-    flex-direction: column;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.subscription-form {
+    margin: 40px 0;
+}
+
+.footer_logo img {
+    justify-self: flex-start;
+}
+
+.subscription-form .subscribe {
+    margin-bottom: 20px;
+}
+.form {
+    background: #F9F9F9;
+    margin-top: 1px;
+    width: 90%;
+}
+.form input[type = "email"]{
     width: 100%;
-    flex-shrink: 0;
+    margin-bottom: 16px;
+    background-color: #f7f7f7;
+    padding: 14px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
-
-.footer #footerimg{
-    color: black;
-    size: 10px;
-    padding: 20px;
+.custom-hr {
+    width: 98%;
+    margin: 0 auto; 
+    margin-bottom: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
 }
-
-.con_sub{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.copyright {
+    margin-bottom: 20px;
 }
-
-.contact_us_details{
-    gap: 20px;
-    flex-direction: column;
-    padding: 20px;
-    margin: 10px;
-}
-
-.map{
-    display: flex;
-    gap: 20px;
-    align-content: space-betweens;
-}
-
-
-.subscribe{
-    flex-shrink: 0;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    margin: 5px;
-}
-
-input{
-    padding: 20px;
-    margin: 10px;
-    border: none;
-}
-
-
-h5{
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.subscriptionlayout{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.chevronlogo{
-    background-color: #aaa8a8;
-    padding: 10px;
-    border: none;
-}
-
-@media (max-width: 375px){
-
-    .con_sub{
+/* For Tablet */
+@media (min-width:760px) {
+    .contact {
         display: flex;
-        flex-direction: column;
-        padding: 10px;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .footer {
+        height: 292px;
     }
 }

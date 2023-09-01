@@ -3,171 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/header.css">
-    <link rel="stylesheet" href="./CSS/message.css">
-    <link rel="stylesheet" href="./CSS/topsellingproducts.css">
-    <link rel="stylesheet" href="./CSS/recentnews.css">
-    <link rel="stylesheet" href="./CSS/footer.css">
-    <link rel="icon" href="./IMG ASSETS/Site_logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <title>TMART | Shopping in grand style</title>
-    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,200&family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>T-MART - We serve you better.</title>
 </head>
 <body>
-    <div class="hero">
-        <div class="header_session">
-            <!--SITE LOGO-->
-            <div class="headerlogo">
-                <img src="./IMGASSETS/Site_logo.png" id="sitelogo">
+    <!--This is the hero section-->
+    <section class="hero">
+        <div class="container">
+            <div class="site_logo">
+                <img src="./assets/logo_white.png" alt="site_logo">
+
             </div>
-                <!--NAVIGATION BAR-->
-            <div class="navigationoptions">
+            <nav class="mainmenu">
                 <ul>
-                    <a href="">Portfolio</a>
-                    <a href="">Blog</a>
-                    <a href="">Shop</a>
-                    <a href="">Contact</a>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
+
+            <!-- icons -->
+            <div class="topicons">
+                <a href="#"><i data-feather="user" class="topicon"></i></a>
+                <a href="#"><i data-feather="shopping-cart" class="topicon"></i></a>
+                <a href="#"><i data-feather="menu" class="topicon"></i></a>
             </div>
-            <!--MENU ICONS-->
-            <div class="navigationicons">
-                <img src="./IMGASSETS/user.png" alt="user_ico">
-                <img src="./IMGASSETS/shopping-cart.png" alt="cart_icon">
-                <img src="./IMGASSETS/menu.png" alt="menuicon">
-            </div>
+
         </div>
-        <!--SITE HEADLINE-->
+
         <div class="headline">
-            <h1>New Product Collection</h1>
-            <p1>SHOP NOW</p1>
+            <div class="headline_content">
+                <h1>New Product Collection</h1>
+                <div class="shopnow_btn"><a href="#">Shop Now</a></div>
+            </div>
         </div>
 
-    </div>  
-    
-    <div class="message_session">
-        <div class="furniture">
-            <h2> New Furniture Collection</h2>
-            <h3><a href="">Shop Now</a></h3>
-        </div>
+        <div class="overlay"></div>
+    </section>
 
-        <div class="basket">
-            <h2> New Basket Collection</h2>
-            <h3><a href="">Shop Now</a></h3>
-        </div>
-    </div>
-
-    <div class="topsellingproducts">
-
-        <h1>Top Selling Products</h1>
-
-        <div class="topproducts">
-            <div class="product1">
-                <h3> Christopher <br> Knight Furniture</h3>
-                <h3>$ 235.23</h3>
-            </div>
-            <div class="product2">
-                <h3> Wheat Straw  <br> unbreakable cup</h3>
-                <h3>$ 67.15</h3>
-            </div>
-            <div class="product3">
-                <h3> Adidas Classic  <br> Bag</h3>
-                <h3>$ 49.82</h3>
-            </div>
-            <div class="product4">
-                <h3> Desk Pencil - Pe<br> Holder</h3>
-                <h3>$ 22.30</h3>
-            </div>
-
-            <div class="product5">
-                <h3> Christopher <br> Knight Furniture</h3>
-                <h3>$ 235.23</h3>
-            </div>
-            <div class="product6">
-                <h3> Wheat Straw  <br> unbreakable cup</h3>
-                <h3>$ 67.15</h3>
-            </div>
-            <div class="product7">
-                <h3> Adidas Classic  <br> Bag</h3>
-                <h3>$ 49.82</h3>
-            </div>
-            <div class="product8">
-                <h3> Desk Pencil - Pe<br> Holder</h3>
-                <h3>$ 22.30</h3>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="recentnewsitem">
-
-        <h1>Recent News</h1>
-
-        <div class="newsitems">
-            <div class="news1">
-                <h3> 20 <br> MAY</h3>
-                <br>
-                <br>
-                <p>How to Optimize Your eCommerce Store for Better Conversions</p>
-                <h3>READ MORE ---</h3>
-            </div>
-            <div class="news2">
-                <h3> 13  <br> MAY</h3>
-                <br>
-                <br>
-                <p>Understanding and Implementing SEO for eCommerce Success</p>
-                <h3>READ MORE ---</h3>
-            </div>
-            <div class="news3">
-                <h3> 04  <br> MAY</h3>
-                <br>
-                <br>
-                <p>Effective Email Marketing Strategies for eCommerce Businesses</p>
-                <h3>READ MORE ---</h3>
-            </div>
-
-        </div>
-    </div>
-    
-    
-    <div class="footer">
-        <div>
-            <img src="./IMGASSETS/footerlogo.png" id="footerimg">
-        </div>
-        <div class="con_sub">
-            <div class="contact_us_details">
-                <div class="map">
-                    <img src="./IMGASSETS/map-pin.png" alt="user_ico">
-                    <label>194 Main Rd T, FS Rayed, USA</label>
-                </div>
-                <div class="map">
-                    <img src="./IMGASSETS/mail.png" alt="mail_ico">
-                    <label>info@tmart.org</label>
-                </div>
-                <div class="map">
-                    <img src="./IMGASSETS/phone-call.png" alt="phone_ico">
-                    <label>+233 244 244 244</label>
+    <section class="categories" id="shop">
+        <div class="categories_container">
+            <div class="category furniture_collection">
+                <h2>New Furniture <span class="break"> Collection</span></h2>
+                <div class="shopnow_btn">
+                    <a href="#">Shop Now</a>
+                    <i data-feather="minus" ></i>
                 </div>
             </div>
+    
+            <div class="category basket_collection">
+                <h2>New Baskets <span class="break"> Collection</span></h2>
+                <div class="shopnow_btn">
+                    <a href="#">Shop Now</a>
+                    <i data-feather="minus" ></i>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="subscribe">
-                    <div>
-                        <h5>Subscribe to our newsletter and get 10% off your first purchase</h5>
+    <section class="products">
+        <div class="products-container">
+            
+            <h2>Best Products</h2>
+            <div class="product-description">
+                <div class="product furniture">
+                    <p>Christopher <br> Knight Furniture</p>
+                    <p class="price">$ 235.23</p>
+                </div>
+
+                <div class="product cup">
+                    <p>Wheat Straw <br> unbreakable cup</p>
+                    <p class="price">$ 67.15</p>
+                </div>
+
+                <div class="product bag">
+                    <p>Adidas Classic <br> Bag</p>
+                    <p class="price">$ 49.82</p>
+                </div>
+
+                <div class="product pencil-holder">
+                    <p>Desk Pencil - Pen <br> Holder</p>
+                    <p class="price">$ 22.30</p>
+                </div>
+
+                <div class="product key-holder">
+                    <p>Ripple Creak Key <br> Holder</p>
+                    <p class="price">$ 8.13<p>
+                </div>
+
+                <div class="product cotton-canvas">
+                    <p>Economical <br> Cotton Canvas</p>
+                    <p class="price">$ 11.08</p>
+                </div>
+
+                <div class="product michael-kors-original">
+                    <p>Michael Kors <br> Original</p>
+                    <p class="price">$ 15.10</p>
+                </div>
+
+                <div class="product bostanten-women-leather">
+                    <p>Bostanten <br> Women Leather</p>
+                    <p class="price">$ 234.26</p>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blog">
+        <div class="blog-container">
+            <h2>Recent News</h2>
+            <div class="articles">
+                <article class="blog article1">
+                    <p class="date">20 <br> MAY</p>
+                    <p>How to Optimize Your eCommerce Store for Better Conversions</p>
+                    <div class="readmore_btn">
+                        <a href="#">READ MORE</a>
+                        <i data-feather="minus" ></i>
                     </div>
-                    <div class="subscriptionlayout">
-                        <div>
-                            <input type="text" placeholder="Enter email address">
-                        </div>
-                        <div class="chevronlogo">
-                            <img src="./IMGASSETS/chevron-right.png" alt="chevronlogo" id="subscribelogo">   
-                        </div>
+                </article>
+    
+                <article class="blog article2">
+                    <p class="date">13 <br> MAY</p>
+                    <p>Understanding and Implementing SEO for eCommerce Success</p>
+                    <div class="readmore_btn">
+                        <a href="#">READ MORE</a>
+                        <i data-feather="minus" ></i>
                     </div>
-                    
+    
+                </article>
+    
+                <article class="blog article3">
+                    <p class="date">20 <br> MAY</p>
+                    <p>Effective Email Marketing Strategies for eCommerce Businesses</p>
+                    <div class="readmore_btn">
+                        <a href="#">READ MORE</a>
+                        <i data-feather="minus" ></i>
+                    </div>
+                </article>
             </div>
         </div>
-    </div>
 
-    <hr>
-    <h5> &copy; Tmart - All rights reserved</h5>
+    </section>
 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="contact" id="contact">
+                <div>
+                    <div class="footer_logo">
+                        <img src="./assets/logo.png" alt="Footer logo">
+                    </div>
+                    <div class="address">
+                        <div class="location-address">
+                           <i data-feather="map-pin"></i>
+                           <div class="test-address">194 Main Rd T, FS Rayed, USA</div>
+                        </div>
+                        <div class="mail-address">
+                            <i data-feather="mail"></i>
+                            <div class="text-address">info@tmart.org</div>
+                        </div>
+                        <div class="phone-address">
+                            <i data-feather="phone"></i>
+                            <div class="text-address">+233 244 244 244</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscription-form">
+                    <div class="subscribe">Subscribe to our newsletter and get 10% off your first purchase</div>
+                    <form action="#" class="form">
+                        <input type="email" placeholder="Enter email address">
+                        <button type="button"><i data-feather="chevron-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="custom-hr"></div>
+        <div class="copyright">
+            <p>&copy; Tmart - All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        feather.replace();
+      </script>
 </body>
 </html>
