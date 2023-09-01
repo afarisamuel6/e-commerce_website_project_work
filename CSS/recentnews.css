@@ -1,0 +1,126 @@
+.recentnewsitem{
+    display: flex;
+    flex-direction: column;
+}
+
+.recentnewsitem h1{
+    align-items: center;
+    align-self: center;
+}
+
+
+.newsitems{
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+
+}
+.newsitems h3{
+    text-align: left;
+    align-self: center;
+}
+
+.newsitems p{
+    font-size: 12px;
+}
+
+.news1{
+    background-image: url(/IMGASSETS/rectangle4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.news2{
+    background-image: url(/IMGASSETS/rectangle5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.news3{
+    background-image: url(/IMGASSETS/rectangle\ 6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 800px){
+    .newsitems{
+        flex-shrink: 1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        align-content: flex-start ;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .news1{
+        background-image: url(/IMGASSETS/rectangle4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .news2{
+        background-image: url(/IMGASSETS/rectangle5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .news3{
+        background-image: url(/IMGASSETS/rectangle\ 6.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+        flex: flex;
+    }
+
+    .newsitems h3{
+        text-align: left;
+        align-self: center;
+    }
+    
+    .newsitems p{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 375px){
+    .newsitems{
+        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+}
+
