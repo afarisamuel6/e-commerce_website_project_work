@@ -1,76 +1,97 @@
-.footer{
-    background-color: #EFEFEF;
+footer {
+    padding: 20px;
+    background: #EFEFEF;
+    color: #000;
+    font-family: 'Poppins' sans-serif;
+    height: 480px;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.footer-container {
+    display: block;
+}
+
+.subscribe {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 0 auto;
+}
+
+.sr-only {
+    display: none;
+}
+
+.location-address, .phone-address, .mail-address {
     display: flex;
-    flex-direction: column;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.footer_logo img {
+    justify-self: flex-start;
+}
+
+.subscription .subscribe {
+    margin-bottom: 20px;
+}
+
+.subs-form {
+    display: flex;
+    width: 350px;
+    padding-left: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #D9D9D9
+}
+
+input {
     width: 100%;
-    flex-shrink: 0;
+    height: 50px;
+    background: none;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    padding: 0;
 }
 
-.footer #footerimg{
-    color: black;
-    size: 10px;
-    padding: 20px;
+button {
+    height: 50px;
+    width: 60px;
+    background-color: #D9D9D9;
+    border-style: none;
+    outline: none;
 }
 
-.con_sub{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.subscription {
+    margin-top: 30px;
 }
 
-.contact_us_details{
-    gap: 20px;
-    flex-direction: column;
-    padding: 20px;
-    margin: 10px;
+.custom-hr {
+    width: 98%;
+    margin: 0 auto; 
+    margin-bottom: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
 }
-
-.map{
-    display: flex;
-    gap: 20px;
-    align-content: space-betweens;
+.copyright {
+    margin-bottom: 20px;
 }
-
-
-.subscribe{
-    flex-shrink: 0;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    margin: 5px;
-}
-
-input{
-    padding: 20px;
-    margin: 10px;
-    border: none;
-}
-
-
-h5{
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.subscriptionlayout{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.chevronlogo{
-    background-color: #aaa8a8;
-    padding: 10px;
-    border: none;
-}
-
-@media (max-width: 375px){
-
-    .con_sub{
+/* For Tablet and Desktop */
+@media (min-width:760px) {
+    .contact {
         display: flex;
-        flex-direction: column;
-        padding: 10px;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+
+    .footer {
+        height: 300px;
     }
 }
+

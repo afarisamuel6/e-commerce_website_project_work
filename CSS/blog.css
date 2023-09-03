@@ -1,0 +1,90 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.blog {
+    margin: 2%;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.blog p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.date {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border: 2px;
+    font-size: 18px;
+}
+.readmore_btn {
+    color: #000;
+    font-family: 'Dosis' sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 33px;
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.blogs h2 {
+    text-align: center;
+}
+.blog p {
+    font-family: 'poppins' sans-serif;
+}
+
+.article1 {
+    background: url(../assets/b1.jpg) no-repeat scroll center center /cover;
+}
+
+.article2 {
+    background: url(../assets/b2.jpg) no-repeat scroll center center /cover;
+}
+
+.article3 {
+    background: url(../assets/b3.jpg) no-repeat scroll center center /cover;
+}
+
+/* For tablet */
+@media (min-width:760px) and (max-width:899px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+/* For desktop*/
+@media (min-width: 900px) {
+    .articles {
+        grid-gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+}
