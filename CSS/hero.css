@@ -78,6 +78,10 @@ ul li {
     .mainmenu {
         display: none;
     }
+
+    .hero .headline {
+        width: 300px;
+    }
    
     .mainmenu a, .topicon {
         color: #fff;
