@@ -11,7 +11,6 @@
     padding: 35px 20px;
     text-align: center;
     z-index: 2;
-    
 }
 
 .headline h1 {
@@ -68,10 +67,9 @@ ul li {
         padding: 45px 30px;
         width: 450px;
     }
-    
 
     .furniture_collection, .basket_collection {
-        height: 299px;
+        height: 29 9px;
     }
 }
 
@@ -82,11 +80,7 @@ ul li {
     }
 
     .hero .headline {
-        background-color: rgba(255, 255, 255, 0.74);
-        padding: 35px 20px;
-        text-align: center;
-        z-index: 2;
-        width: 350px;
+        width: 300px;
     }
    
     .mainmenu a, .topicon {
