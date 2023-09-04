@@ -15,7 +15,7 @@
     justify-content: flex-end;
     gap: 20px;
     color: #000;
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
     margin-bottom: 20px;
     position: relative;
@@ -34,13 +34,17 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px 15px;
     border: 2px;
-    font-size: 18px;
+    font-size: 12px;
+}
+
+.date span {
+    font-size: 24px;
 }
 .readmore_btn {
     color: #000;
-    font-family: 'Dosis' sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 500;
     line-height: 33px;
     text-decoration-line: underline;
     display: flex;
@@ -53,7 +57,7 @@
     text-align: center;
 }
 .blog p {
-    font-family: 'poppins' sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 .article1 {
